@@ -239,7 +239,8 @@
 							"items": [
 								"integrated_edit_field",
 								"integrated_edit_field1",
-								"integrated_edit_field2"
+								"integrated_edit_field2",
+								"integrated_edit_field3"
 							]
 						}
 					},
@@ -280,6 +281,11 @@
 				},
 				"integrated_edit_field2": {
 					"field": "last_update",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "actor_id",
 					"type": "integrated_edit_field",
 					"orientation": 0
 				}
