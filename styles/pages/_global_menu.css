@@ -1,0 +1,13 @@
+[data-page="_global_menu"][data-itemid="welcome_item"] .r-w-icon {
+  background-color: #e6734940;
+  color: light-dark(#c53804, #f4926e);
+}
+[data-page="_global_menu"][data-itemid="welcome_item"] .r-w-item:hover .r-w-icon {
+  background-color: #e67349;
+  color: white;
+}
+[data-page="_global_menu"][data-itemid="page_image_ash8f23hr"] {
+  width: 400px;
+}
+
+

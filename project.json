@@ -87,6 +87,11 @@
 			"groups": {}
 		}
 	},
+	"lcid": 1046,
+	"defaultLanguage": "Portuguese(Brazil)",
+	"languages": [
+		"Portuguese(Brazil)"
+	],
 	"dbConnections": [
 		{
 			"id": "conn",

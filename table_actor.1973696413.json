@@ -665,9 +665,58 @@
 						"c3": {
 							"model": "c3",
 							"items": [
+								"integrated_edit_field3",
+								"tabs"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section1": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
 								"integrated_edit_field",
-								"integrated_edit_field1",
-								"integrated_edit_field2"
+								"integrated_edit_field2",
+								"integrated_edit_field1"
 							]
 						}
 					},
@@ -723,6 +772,30 @@
 				},
 				"edit_view": {
 					"type": "edit_view"
+				},
+				"integrated_edit_field3": {
+					"field": "actor_id",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"tabs": {
+					"type": "tabs",
+					"titles": [
+						{
+							"text": "New tab1",
+							"type": 0
+						},
+						{
+							"text": "New tab2",
+							"type": 0
+						}
+					],
+					"locations": [
+						"section",
+						"section1"
+					],
+					"bsStyle": "default",
+					"panelType": 2
 				}
 			},
 			"version": 13,
