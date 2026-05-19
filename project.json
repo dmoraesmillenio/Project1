@@ -104,7 +104,7 @@
 			"id": "conn",
 			"name": "sakila at localhost",
 			"type": 4,
-			"connString": "postgre;localhost;phprunner;phprunner;14297;sakila;;1;{};0"
+			"connString": "postgre;localhost;phprunner;phprunner;14297;sakila;;1;{\"ssl\":false};0"
 		}
 	],
 	"defaultConnID": "conn",

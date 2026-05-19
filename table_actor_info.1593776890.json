@@ -10,6 +10,7 @@
 		{
 			"name": "actor_id",
 			"sqlExpression": "actor_id",
+			"index": 1,
 			"strField": "actor_id",
 			"type": 3,
 			"viewFormats": [
@@ -26,6 +27,7 @@
 		{
 			"name": "first_name",
 			"sqlExpression": "first_name",
+			"index": 2,
 			"strField": "first_name",
 			"type": 200,
 			"viewFormats": [
@@ -42,6 +44,7 @@
 		{
 			"name": "last_name",
 			"sqlExpression": "last_name",
+			"index": 3,
 			"strField": "last_name",
 			"type": 200,
 			"viewFormats": [
@@ -58,6 +61,7 @@
 		{
 			"name": "film_info",
 			"sqlExpression": "film_info",
+			"index": 4,
 			"strField": "film_info",
 			"type": 201,
 			"viewFormats": [
@@ -151,7 +155,9 @@
 					"cells": {
 						"c1": {
 							"model": "c1",
-							"items": []
+							"items": [
+								"add_message"
+							]
 						}
 					},
 					"deferredItems": [],
@@ -225,7 +231,6 @@
 								"integrated_edit_field",
 								"integrated_edit_field1",
 								"integrated_edit_field2",
-								"add_message",
 								"integrated_edit_field3"
 							]
 						}
@@ -752,19 +757,27 @@
 				},
 				"simple_grid_field": {
 					"field": "actor_id",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field1": {
 					"field": "first_name",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field2": {
 					"field": "last_name",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field3": {
 					"field": "film_info",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"search_panel": {
 					"type": "search_panel",
