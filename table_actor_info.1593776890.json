@@ -151,9 +151,7 @@
 					"cells": {
 						"c1": {
 							"model": "c1",
-							"items": [
-								"add_message"
-							]
+							"items": []
 						}
 					},
 					"deferredItems": [],
@@ -227,6 +225,7 @@
 								"integrated_edit_field",
 								"integrated_edit_field1",
 								"integrated_edit_field2",
+								"add_message",
 								"integrated_edit_field3"
 							]
 						}
