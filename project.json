@@ -10,6 +10,13 @@
 				"x": 20,
 				"width": 140.640625,
 				"height": 152
+			},
+			{
+				"gid": 1593776890,
+				"y": 10,
+				"x": 190,
+				"width": 171,
+				"height": 152
 			}
 		]
 	},
@@ -121,6 +128,22 @@
 							"table": 1973696413,
 							"pageType": "list"
 						}
+					},
+					{
+						"id": "2",
+						"data": {
+							"name": {
+								"table": "public.actor_info",
+								"type": 6
+							},
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-camera",
+							"showIconType": 2,
+							"table": 1593776890,
+							"pageType": "list"
+						}
 					}
 				]
 			}
@@ -202,7 +225,8 @@
 						"c1": {
 							"model": "c1",
 							"items": [
-								"welcome_item"
+								"welcome_item",
+								"welcome_item1"
 							]
 						}
 					},
@@ -234,6 +258,25 @@
 						"type": 0
 					},
 					"background": "#e67349",
+					"linkType": 0
+				},
+				"welcome_item1": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "public.actor_info",
+					"linkPage": "list",
+					"linkText": {
+						"table": "public.actor_info",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "camera"
+					},
+					"linkComments": {
+						"text": "Actor Info description",
+						"type": 0
+					},
+					"background": "#cd853f",
 					"linkType": 0
 				}
 			},
