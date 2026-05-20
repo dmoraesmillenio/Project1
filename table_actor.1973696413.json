@@ -583,9 +583,7 @@
 					"cells": {
 						"c1": {
 							"model": "c1",
-							"items": [
-								"edit_message"
-							]
+							"items": []
 						}
 					},
 					"deferredItems": [],
@@ -640,9 +638,7 @@
 					"cells": {
 						"c1": {
 							"model": "c1",
-							"items": [
-								"edit_header"
-							]
+							"items": []
 						}
 					},
 					"deferredItems": [],
@@ -664,8 +660,8 @@
 						"c3": {
 							"model": "c3",
 							"items": [
-								"integrated_edit_field3",
-								"tabs"
+								"tabs",
+								"section"
 							]
 						}
 					},
@@ -689,7 +685,10 @@
 					"cells": {
 						"c1": {
 							"model": "c1",
-							"items": []
+							"items": [
+								"edit_header",
+								"integrated_edit_field3"
+							]
 						}
 					},
 					"deferredItems": [],
@@ -716,6 +715,31 @@
 								"integrated_edit_field",
 								"integrated_edit_field2",
 								"integrated_edit_field1"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section2": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_message"
 							]
 						}
 					},
@@ -796,6 +820,16 @@
 					],
 					"bsStyle": "default",
 					"panelType": 2
+				},
+				"section": {
+					"type": "section",
+					"title": {
+						"text": "New Section1",
+						"type": 0
+					},
+					"location": "section2",
+					"bsStyle": "default",
+					"panelType": 3
 				}
 			},
 			"version": 13,
