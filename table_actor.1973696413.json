@@ -886,9 +886,7 @@
 					"cells": {
 						"c1": {
 							"model": "c1",
-							"items": [
-								"view_header"
-							]
+							"items": []
 						}
 					},
 					"deferredItems": [],
@@ -912,6 +910,7 @@
 							"items": [
 								"integrated_edit_field",
 								"integrated_edit_field1",
+								"view_header",
 								"integrated_edit_field2",
 								"integrated_edit_field3"
 							]
@@ -1554,8 +1553,7 @@
 						"c2": {
 							"model": "c2",
 							"items": [
-								"print_header",
-								"print_subheader"
+								"print_header"
 							]
 						}
 					},
@@ -1581,7 +1579,8 @@
 								"simple_grid_field",
 								"simple_grid_field1",
 								"simple_grid_field2",
-								"simple_grid_field3"
+								"simple_grid_field3",
+								"print_subheader"
 							]
 						}
 					},
