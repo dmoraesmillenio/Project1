@@ -343,9 +343,7 @@
 					"cells": {
 						"c1": {
 							"model": "c1",
-							"items": [
-								"export_header"
-							]
+							"items": []
 						}
 					},
 					"deferredItems": [],
@@ -395,7 +393,9 @@
 					"cells": {
 						"c1": {
 							"model": "c1",
-							"items": []
+							"items": [
+								"export_header"
+							]
 						},
 						"c2": {
 							"model": "c2",
@@ -1586,9 +1586,7 @@
 					"cells": {
 						"c2": {
 							"model": "c2",
-							"items": [
-								"print_header"
-							]
+							"items": []
 						}
 					},
 					"deferredItems": [],
@@ -1614,7 +1612,8 @@
 								"simple_grid_field1",
 								"simple_grid_field2",
 								"simple_grid_field3",
-								"print_subheader"
+								"print_subheader",
+								"print_header"
 							]
 						}
 					},
