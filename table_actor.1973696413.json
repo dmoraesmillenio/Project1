@@ -213,9 +213,7 @@
 					"cells": {
 						"c1": {
 							"model": "c1",
-							"items": [
-								"add_header"
-							]
+							"items": []
 						}
 					},
 					"deferredItems": [],
@@ -239,6 +237,7 @@
 							"items": [
 								"integrated_edit_field",
 								"integrated_edit_field1",
+								"add_header",
 								"integrated_edit_field2",
 								"integrated_edit_field3"
 							]
@@ -776,7 +775,8 @@
 				"integrated_edit_field3": {
 					"field": "actor_id",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"tabs": {
 					"type": "tabs",
