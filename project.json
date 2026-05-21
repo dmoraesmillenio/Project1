@@ -17,6 +17,41 @@
 				"x": 190,
 				"width": 171,
 				"height": 152
+			},
+			{
+				"gid": 912957757,
+				"y": 10,
+				"x": 390,
+				"width": 159.328125,
+				"height": 264
+			},
+			{
+				"gid": 3298869928,
+				"y": 10,
+				"x": 735,
+				"width": 163.21875,
+				"height": 124
+			},
+			{
+				"gid": 2461305242,
+				"y": 10,
+				"x": 575,
+				"width": 130.515625,
+				"height": 152
+			},
+			{
+				"gid": 1034630540,
+				"y": 10,
+				"x": 925,
+				"width": 157.09375,
+				"height": 400
+			},
+			{
+				"gid": 3771741843,
+				"y": 10,
+				"x": 1110,
+				"width": 157.09375,
+				"height": 400
 			}
 		]
 	},
@@ -144,6 +179,86 @@
 							"table": 1593776890,
 							"pageType": "list"
 						}
+					},
+					{
+						"id": "3",
+						"data": {
+							"name": {
+								"table": "public.address",
+								"type": 6
+							},
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-briefcase",
+							"showIconType": 2,
+							"table": 912957757,
+							"pageType": "list"
+						}
+					},
+					{
+						"id": "4",
+						"data": {
+							"name": {
+								"table": "public.city",
+								"type": 6
+							},
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-earphone",
+							"showIconType": 2,
+							"table": 2461305242,
+							"pageType": "list"
+						}
+					},
+					{
+						"id": "5",
+						"data": {
+							"name": {
+								"table": "public.category",
+								"type": 6
+							},
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-tree-conifer",
+							"showIconType": 2,
+							"table": 3298869928,
+							"pageType": "list"
+						}
+					},
+					{
+						"id": "6",
+						"data": {
+							"name": {
+								"table": "public.film",
+								"type": 6
+							},
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-send",
+							"showIconType": 2,
+							"table": 1034630540,
+							"pageType": "list"
+						}
+					},
+					{
+						"id": "7",
+						"data": {
+							"name": {
+								"table": "film view",
+								"type": 6
+							},
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-tree-conifer",
+							"showIconType": 2,
+							"table": 3771741843,
+							"pageType": "list"
+						}
 					}
 				]
 			}
@@ -226,7 +341,12 @@
 							"model": "c1",
 							"items": [
 								"welcome_item",
-								"welcome_item1"
+								"welcome_item1",
+								"welcome_item2",
+								"welcome_item3",
+								"welcome_item4",
+								"welcome_item5",
+								"welcome_item6"
 							]
 						}
 					},
@@ -277,6 +397,93 @@
 						"type": 0
 					},
 					"background": "#cd853f",
+					"linkType": 0
+				},
+				"welcome_item2": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "public.address",
+					"linkPage": "list",
+					"linkText": {
+						"table": "public.address",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "briefcase"
+					},
+					"linkComments": {
+						"text": "Address description",
+						"type": 0
+					},
+					"background": "#6b8e23",
+					"linkType": 0
+				},
+				"welcome_item3": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "public.city",
+					"linkPage": "list",
+					"linkText": {
+						"table": "public.city",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "earphone"
+					},
+					"linkComments": {
+						"text": "City description",
+						"type": 0
+					},
+					"background": "#8fbc8b",
+					"linkType": 0
+				},
+				"welcome_item4": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "public.category",
+					"linkPage": "list",
+					"linkText": {
+						"table": "public.category",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "tree-conifer"
+					},
+					"linkComments": {
+						"text": "Category description",
+						"type": 0
+					},
+					"background": "#7b68ee",
+					"linkType": 0
+				},
+				"welcome_item5": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "public.film",
+					"linkPage": "list",
+					"linkText": {
+						"table": "public.film",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "send"
+					},
+					"background": "#dc143c",
+					"linkType": 0
+				},
+				"welcome_item6": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "film view",
+					"linkPage": "list",
+					"linkText": {
+						"table": "film view",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "tree-conifer"
+					},
+					"background": "#dc143c",
 					"linkType": 0
 				}
 			},
