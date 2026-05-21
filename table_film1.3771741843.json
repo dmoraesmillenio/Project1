@@ -2146,7 +2146,6 @@
 						"c1": {
 							"model": "c1",
 							"items": [
-								"add",
 								"inline_add",
 								"inline_save_all",
 								"inline_cancel_all",
@@ -2367,7 +2366,8 @@
 						"cell_field1": {
 							"model": "cell_field",
 							"items": [
-								"grid_field1"
+								"grid_field1",
+								"add"
 							],
 							"field": "film_id"
 						},
@@ -2618,7 +2618,10 @@
 					"type": "grid_edit"
 				},
 				"add": {
-					"type": "add"
+					"type": "add",
+					"icon": {
+						"style": 0
+					}
 				},
 				"grid_view": {
 					"type": "grid_view"
