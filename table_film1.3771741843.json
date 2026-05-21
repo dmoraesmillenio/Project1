@@ -1072,6 +1072,7 @@
 							"model": "c1",
 							"items": [
 								"edit_save",
+								"update_records",
 								"edit_back_list",
 								"edit_close"
 							]
@@ -1177,82 +1178,85 @@
 					"field": "title",
 					"type": "integrated_edit_field",
 					"orientation": 0,
-					"updateOnEdit": false
+					"updateOnEdit": true
 				},
 				"integrated_edit_field1": {
 					"field": "description",
 					"type": "integrated_edit_field",
 					"orientation": 0,
-					"updateOnEdit": false
+					"updateOnEdit": true
 				},
 				"integrated_edit_field2": {
 					"field": "release_year",
 					"type": "integrated_edit_field",
 					"orientation": 0,
-					"updateOnEdit": false
+					"updateOnEdit": true
 				},
 				"integrated_edit_field3": {
 					"field": "language_id",
 					"type": "integrated_edit_field",
 					"orientation": 0,
-					"updateOnEdit": false
+					"updateOnEdit": true
 				},
 				"integrated_edit_field4": {
 					"field": "original_language_id",
 					"type": "integrated_edit_field",
 					"orientation": 0,
-					"updateOnEdit": false
+					"updateOnEdit": true
 				},
 				"integrated_edit_field5": {
 					"field": "rental_duration",
 					"type": "integrated_edit_field",
 					"orientation": 0,
-					"updateOnEdit": false
+					"updateOnEdit": true
 				},
 				"integrated_edit_field6": {
 					"field": "rental_rate",
 					"type": "integrated_edit_field",
 					"orientation": 0,
-					"updateOnEdit": false
+					"updateOnEdit": true
 				},
 				"integrated_edit_field7": {
 					"field": "length",
 					"type": "integrated_edit_field",
 					"orientation": 0,
-					"updateOnEdit": false
+					"updateOnEdit": true
 				},
 				"integrated_edit_field8": {
 					"field": "replacement_cost",
 					"type": "integrated_edit_field",
 					"orientation": 0,
-					"updateOnEdit": false
+					"updateOnEdit": true
 				},
 				"integrated_edit_field9": {
 					"field": "rating",
 					"type": "integrated_edit_field",
 					"orientation": 0,
-					"updateOnEdit": false
+					"updateOnEdit": true
 				},
 				"integrated_edit_field10": {
 					"field": "last_update",
 					"type": "integrated_edit_field",
 					"orientation": 0,
-					"updateOnEdit": false
+					"updateOnEdit": true
 				},
 				"integrated_edit_field11": {
 					"field": "special_features",
 					"type": "integrated_edit_field",
 					"orientation": 0,
-					"updateOnEdit": false
+					"updateOnEdit": true
 				},
 				"integrated_edit_field12": {
 					"field": "fulltext",
 					"type": "integrated_edit_field",
 					"orientation": 0,
-					"updateOnEdit": false
+					"updateOnEdit": true
 				},
 				"edit_view": {
 					"type": "edit_view"
+				},
+				"update_records": {
+					"type": "update_records"
 				}
 			},
 			"version": 13,
@@ -2143,7 +2147,8 @@
 							"model": "c1",
 							"items": [
 								"add",
-								"delete"
+								"delete",
+								"update_selected"
 							]
 						},
 						"c2": {
@@ -2724,6 +2729,9 @@
 				"grid_field_label8": {
 					"type": "grid_field_label",
 					"field": "length"
+				},
+				"update_selected": {
+					"type": "update_selected"
 				}
 			},
 			"version": 13,
