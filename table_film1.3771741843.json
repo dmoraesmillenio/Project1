@@ -2147,8 +2147,14 @@
 							"model": "c1",
 							"items": [
 								"add",
+								"inline_add",
+								"inline_save_all",
+								"inline_cancel_all",
+								"expand_menu_button",
 								"delete",
-								"update_selected"
+								"breadcrumb",
+								"update_selected",
+								"collapse_button"
 							]
 						},
 						"c2": {
@@ -2156,6 +2162,8 @@
 							"items": [
 								"details_found",
 								"page_size",
+								"simple_search",
+								"list_options",
 								"print_panel"
 							]
 						}
@@ -2242,18 +2250,11 @@
 					"cells": {
 						"c1": {
 							"model": "c1",
-							"items": [
-								"expand_menu_button",
-								"collapse_button",
-								"breadcrumb"
-							]
+							"items": []
 						},
 						"c2": {
 							"model": "c2",
-							"items": [
-								"simple_search",
-								"list_options"
-							]
+							"items": []
 						}
 					},
 					"deferredItems": [],
@@ -2337,6 +2338,14 @@
 						{
 							"cells": [
 								{
+									"cell": "cell_field9"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
 									"cell": "cell_dpreview"
 								}
 							],
@@ -2410,6 +2419,13 @@
 								"grid_field8"
 							],
 							"field": "length"
+						},
+						"cell_field9": {
+							"model": "cell_field",
+							"items": [
+								"grid_field9"
+							],
+							"field": "replacement_cost"
 						}
 					},
 					"deferredItems": [
@@ -2425,7 +2441,13 @@
 						"grid_field_label5",
 						"grid_field_label6",
 						"grid_field_label7",
-						"grid_field_label8"
+						"grid_field_label8",
+						"grid_inline_cancel",
+						"grid_inline_edit",
+						"grid_inline_save",
+						"saving_icon",
+						"grid_copy",
+						"grid_field_label9"
 					],
 					"recsPerRow": 1,
 					"cardWidth": "300px",
@@ -2474,6 +2496,7 @@
 				"list_options": {
 					"type": "list_options",
 					"items": [
+						"edit_selected",
 						"export_selected",
 						"delete_selected",
 						"-",
@@ -2483,7 +2506,11 @@
 						"export",
 						"-2",
 						"import"
-					]
+					],
+					"icon": {
+						"glyph": "cog",
+						"style": 0
+					}
 				},
 				"delete_selected": {
 					"type": "delete_selected"
@@ -2614,10 +2641,18 @@
 					"type": "print_records"
 				},
 				"expand_menu_button": {
-					"type": "expand_menu_button"
+					"type": "expand_menu_button",
+					"icon": {
+						"glyph": "menu-hamburger",
+						"style": 0
+					}
 				},
 				"collapse_button": {
-					"type": "collapse_button"
+					"type": "collapse_button",
+					"icon": {
+						"glyph": "triangle-left",
+						"style": 0
+					}
 				},
 				"export": {
 					"type": "export"
@@ -2638,8 +2673,8 @@
 					"field": "title",
 					"type": "grid_field",
 					"cardStyle": 2,
-					"inlineAdd": false,
-					"inlineEdit": false
+					"inlineAdd": true,
+					"inlineEdit": true
 				},
 				"grid_field_label": {
 					"type": "grid_field_label",
@@ -2660,8 +2695,8 @@
 					"field": "description",
 					"type": "grid_field",
 					"cardStyle": 0,
-					"inlineAdd": false,
-					"inlineEdit": false
+					"inlineAdd": true,
+					"inlineEdit": true
 				},
 				"grid_field_label2": {
 					"type": "grid_field_label",
@@ -2671,8 +2706,8 @@
 					"field": "release_year",
 					"type": "grid_field",
 					"cardStyle": 0,
-					"inlineAdd": false,
-					"inlineEdit": false
+					"inlineAdd": true,
+					"inlineEdit": true
 				},
 				"grid_field_label3": {
 					"type": "grid_field_label",
@@ -2682,8 +2717,8 @@
 					"field": "language_id",
 					"type": "grid_field",
 					"cardStyle": 0,
-					"inlineAdd": false,
-					"inlineEdit": false
+					"inlineAdd": true,
+					"inlineEdit": true
 				},
 				"grid_field_label4": {
 					"type": "grid_field_label",
@@ -2693,8 +2728,8 @@
 					"field": "original_language_id",
 					"type": "grid_field",
 					"cardStyle": 0,
-					"inlineAdd": false,
-					"inlineEdit": false
+					"inlineAdd": true,
+					"inlineEdit": true
 				},
 				"grid_field_label5": {
 					"type": "grid_field_label",
@@ -2703,8 +2738,8 @@
 				"grid_field6": {
 					"field": "rental_duration",
 					"type": "grid_field",
-					"inlineAdd": false,
-					"inlineEdit": false
+					"inlineAdd": true,
+					"inlineEdit": true
 				},
 				"grid_field_label6": {
 					"type": "grid_field_label",
@@ -2713,8 +2748,8 @@
 				"grid_field7": {
 					"field": "rental_rate",
 					"type": "grid_field",
-					"inlineAdd": false,
-					"inlineEdit": false
+					"inlineAdd": true,
+					"inlineEdit": true
 				},
 				"grid_field_label7": {
 					"type": "grid_field_label",
@@ -2723,8 +2758,8 @@
 				"grid_field8": {
 					"field": "length",
 					"type": "grid_field",
-					"inlineAdd": false,
-					"inlineEdit": false
+					"inlineAdd": true,
+					"inlineEdit": true
 				},
 				"grid_field_label8": {
 					"type": "grid_field_label",
@@ -2732,8 +2767,46 @@
 				},
 				"update_selected": {
 					"type": "update_selected"
+				},
+				"grid_inline_cancel": {
+					"type": "grid_inline_cancel"
+				},
+				"inline_save_all": {
+					"type": "inline_save_all"
+				},
+				"inline_cancel_all": {
+					"type": "inline_cancel_all"
+				},
+				"edit_selected": {
+					"type": "edit_selected"
+				},
+				"grid_inline_edit": {
+					"type": "grid_inline_edit"
+				},
+				"grid_inline_save": {
+					"type": "grid_inline_save"
+				},
+				"saving_icon": {
+					"type": "saving_icon"
+				},
+				"inline_add": {
+					"type": "inline_add"
+				},
+				"grid_copy": {
+					"type": "grid_copy"
+				},
+				"grid_field9": {
+					"field": "replacement_cost",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"grid_field_label9": {
+					"type": "grid_field_label",
+					"field": "replacement_cost"
 				}
 			},
+			"spreadsheetGrid": true,
 			"version": 13,
 			"pageWidth": "full",
 			"addToBottom": false,

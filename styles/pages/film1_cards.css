@@ -1,0 +1,13 @@
+[data-page="film1_cards"][data-itemid="page_image_ash8f23hr"] {
+  width: 400px;
+}
+
+[data-location="grid"][data-page="film1_cards"] > .r-record-body > .panel  { width: 300px; max-width: 300px; height: 340px; max-height: 340px; }
+
+
+
+
+
+[data-location="grid"][data-page="film1_cards"] > .r-record-body > .panel  [data-field-style="image"][data-full-width-item] { width: 300px }
+[data-location="grid"][data-page="film1_cards"] { gap: 15px; }
+.panel-body > * > [data-location="grid"][data-page="film1_cards"] { padding: 15px; }

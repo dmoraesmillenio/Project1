@@ -1,0 +1,61 @@
+[data-page="_global_menu"][data-itemid="welcome_item"] .r-w-icon {
+  background-color: #e6734940;
+  color: light-dark(#c53804, #f4926e);
+}
+[data-page="_global_menu"][data-itemid="welcome_item"] .r-w-item:hover .r-w-icon {
+  background-color: #e67349;
+  color: white;
+}
+[data-page="_global_menu"][data-itemid="welcome_item1"] .r-w-icon {
+  background-color: #cd853f40;
+  color: light-dark(#945212, #e19f5e);
+}
+[data-page="_global_menu"][data-itemid="welcome_item1"] .r-w-item:hover .r-w-icon {
+  background-color: #cd853f;
+  color: white;
+}
+[data-page="_global_menu"][data-itemid="welcome_item2"] .r-w-icon {
+  background-color: #6b8e2340;
+  color: light-dark(#304407, #8ec222);
+}
+[data-page="_global_menu"][data-itemid="welcome_item2"] .r-w-item:hover .r-w-icon {
+  background-color: #6b8e23;
+  color: white;
+}
+[data-page="_global_menu"][data-itemid="welcome_item3"] .r-w-icon {
+  background-color: #8fbc8b40;
+  color: light-dark(#44a53c, #a9d5a5);
+}
+[data-page="_global_menu"][data-itemid="welcome_item3"] .r-w-item:hover .r-w-icon {
+  background-color: #8fbc8b;
+  color: white;
+}
+[data-page="_global_menu"][data-itemid="welcome_item4"] .r-w-icon {
+  background-color: #7b68ee40;
+  color: light-dark(#2200f0, #9f90f9);
+}
+[data-page="_global_menu"][data-itemid="welcome_item4"] .r-w-item:hover .r-w-icon {
+  background-color: #7b68ee;
+  color: white;
+}
+[data-page="_global_menu"][data-itemid="welcome_item5"] .r-w-icon {
+  background-color: #dc143c40;
+  color: light-dark(#8a001c, #f82b54);
+}
+[data-page="_global_menu"][data-itemid="welcome_item5"] .r-w-item:hover .r-w-icon {
+  background-color: #dc143c;
+  color: white;
+}
+[data-page="_global_menu"][data-itemid="welcome_item6"] .r-w-icon {
+  background-color: #dc143c40;
+  color: light-dark(#8a001c, #f82b54);
+}
+[data-page="_global_menu"][data-itemid="welcome_item6"] .r-w-item:hover .r-w-icon {
+  background-color: #dc143c;
+  color: white;
+}
+[data-page="_global_menu"][data-itemid="page_image_ash8f23hr"] {
+  width: 400px;
+}
+
+
